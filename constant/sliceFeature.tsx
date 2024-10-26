@@ -77,7 +77,7 @@ const featureSlice = createSlice({
       let tempData: Event[] = [...data];
       if (search) {
         tempData = tempData.filter((item) => {
-          return item.eventName.toLowerCase().startsWith(search.toLowerCase()); //startsWith or includes
+          return item.eventName.toLowerCase().includes(search.toLowerCase()); //startsWith or includes
         });
       }
       if (speaker) {
