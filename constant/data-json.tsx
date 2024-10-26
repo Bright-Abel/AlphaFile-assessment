@@ -143,7 +143,7 @@ export const newsItems = [
 export const rowSelect = [10, 12, 14, 16, 20];
 
 export const sortSelect = ['most recent', 'least recent', 'shuffle'];
-export const statusSelect = ['in pending', 'completed'];
+export const statusSelect = [' in pending', 'completed'];
 
 export const eventData = [
   {

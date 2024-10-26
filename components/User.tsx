@@ -11,7 +11,7 @@ const User = ({ isSidebarOpen }: { isSidebarOpen: boolean }) => {
         alt="person"
         className="w-8 h-8 object-cover"
       />
-      <div className={clsx(!isSidebarOpen &&' hidden')}>
+      <div className={clsx(!isSidebarOpen &&' block md:hidden')}>
         <h5 className="text-xs text-[#334155] dark:text-white">Rudra Devi</h5>
         <p className="text-[#64748B] text-xs dark:text-white">
           rudra.devi@gmail.com
