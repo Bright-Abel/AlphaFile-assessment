@@ -1,13 +1,12 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import './globals.css';
 import { Providers } from '@/providers/ThemeProvider';
 import  ReduxProvider  from '@/providers/redux-provider';
 
-import { Inter, Instrument_Sans } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
-const instrument = Instrument_Sans({ subsets: ['latin'] });
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
