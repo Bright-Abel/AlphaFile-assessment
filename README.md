@@ -9,10 +9,18 @@ npm run dev
 # or
 yarn dev
 # or
+
+
+  className={clsx(
+        ` bg-white dark:bg-dark-300  h-screen max-h-screen dark:border-dark-300 !border-r p-2 border-0 border-solid border-[#F1F5F9] min-h-screen transition-all ease-in-out  duration-200`,
+        isSidebarOpen ? 'ml-0 w-[240px]' : 'md:w-[64px] -ml-[240px] md:ml-0'
+      )}
 pnpm dev
 # or
 bun dev
 ```
+ ` bg-white dark:bg-dark-300 h-screen max-h-screen dark:border-dark-300 !border-r p-2 border-0 border-solid border-[#F1F5F9] min-h-screen transition-all ease-in-out  duration-200`,
+        isSidebarOpen ? 'ml-0 md-w-[240px] ' :  'md:w-[64px]  md:ml-0'
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
